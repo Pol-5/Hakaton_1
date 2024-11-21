@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxProgramming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Программирование" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Спорт" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бизнес" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPolitics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Политика" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Общество" />
+
+        <CheckBox
+            android:id="@+id/checkBoxStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Учёба" />
+        <CheckBox
+            android:id="@+id/checkBoxScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Наука" />
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отправить рекомендации" />
+
+        <TextView
+            android:id="@+id/tvRecommendations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
